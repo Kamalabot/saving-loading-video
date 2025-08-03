@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="SavedGame" load_steps=2 format=3 uid="uid://cmuxbi8xq6ino"]
+
+[ext_resource type="Script" uid="uid://b6xe58mxl4qa7" path="res://saved_game/saved_game.gd" id="1_pj5af"]
+
+[resource]
+script = ExtResource("1_pj5af")
+player_position = Vector2(580, 689)
+player_health = 100.0
