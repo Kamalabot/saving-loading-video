@@ -1,11 +1,11 @@
 [gd_scene load_steps=16 format=3 uid="uid://dt42gugmqq28j"]
 
-[ext_resource type="Script" path="res://player/player.gd" id="1_out1h"]
+[ext_resource type="Script" uid="uid://6ql2wi8ortaa" path="res://player/player.gd" id="1_out1h"]
 [ext_resource type="Texture2D" uid="uid://dquwarjqwltkk" path="res://player/submarine.png" id="2_jwb4p"]
-[ext_resource type="PackedScene" uid="uid://bt11i1i0lkiw3" path="res://player_projectile/projectile.tscn" id="2_ss62b"]
-[ext_resource type="Shader" path="res://player/health_indicator.gdshader" id="3_1j2au"]
+[ext_resource type="PackedScene" uid="uid://bt11i1i0lkiw3" path="res://torpedo/torpedo.tscn" id="2_ss62b"]
+[ext_resource type="Shader" uid="uid://b0bgojexd0xd5" path="res://player/health_indicator.gdshader" id="3_1j2au"]
 [ext_resource type="PackedScene" uid="uid://dvihgltjn3xty" path="res://movement_particles/movement_particles.tscn" id="3_h342r"]
-[ext_resource type="Script" path="res://fish/shader_control.gd" id="5_qguf3"]
+[ext_resource type="Script" uid="uid://sib3yihw6giy" path="res://fish/shader_control.gd" id="5_qguf3"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_y1fc3"]
 shader = ExtResource("3_1j2au")
@@ -22,8 +22,7 @@ colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
 gradient = SubResource("Gradient_ot4t6")
 
 [sub_resource type="Curve" id="Curve_8yyqn"]
-min_value = -200.0
-max_value = 200.0
+_limits = [-200.0, 200.0, 0.0, 1.0]
 _data = [Vector2(0.00598802, 200), 0.0, -30.2536, 0, 0, Vector2(0.431138, -12.5), 0.0, 0.0, 0, 0]
 point_count = 2
 
@@ -43,13 +42,11 @@ lifetime_randomness = 0.33
 particle_flag_disable_z = true
 direction = Vector3(-1, 0, 0)
 spread = 63.23
-gravity = Vector3(0, 0, 0)
 initial_velocity_min = 10.53
 initial_velocity_max = 52.64
 angular_velocity_min = -181.89
 angular_velocity_max = 227.37
-orbit_velocity_min = 0.0
-orbit_velocity_max = 0.0
+gravity = Vector3(0, 0, 0)
 linear_accel_curve = SubResource("CurveTexture_417bp")
 scale_min = 0.215
 scale_max = 0.315

@@ -1,10 +1,10 @@
 [gd_scene load_steps=16 format=3 uid="uid://6ydtqgm8mfqb"]
 
 [ext_resource type="PackedScene" uid="uid://d11vwcdb8m2ko" path="res://light_cone/light_cone.tscn" id="1_2r5cp"]
-[ext_resource type="Script" path="res://level_exit/level_exit.gd" id="1_d4hnl"]
-[ext_resource type="Shader" path="res://light_cone/cone.gdshader" id="2_0hg5p"]
+[ext_resource type="Script" uid="uid://d11fcuto1lgfb" path="res://level_exit/level_exit.gd" id="1_d4hnl"]
+[ext_resource type="Shader" uid="uid://clhr1x3qjpp14" path="res://light_cone/cone.gdshader" id="2_0hg5p"]
 [ext_resource type="Texture2D" uid="uid://cmifejtnmlr67" path="res://level_exit/exit_sign.png" id="3_khddq"]
-[ext_resource type="Script" path="res://delayed_detector/delayed_detector.gd" id="5_osvk3"]
+[ext_resource type="Script" uid="uid://c5y5sljie5xt5" path="res://delayed_detector/delayed_detector.gd" id="5_osvk3"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_vt64g"]
 resource_local_to_scene = true
@@ -82,8 +82,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_620q4"]
 _data = {
-"RESET": SubResource("Animation_c4cd2"),
-"rotate": SubResource("Animation_lk08a")
+&"RESET": SubResource("Animation_c4cd2"),
+&"rotate": SubResource("Animation_lk08a")
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_3y2f2"]

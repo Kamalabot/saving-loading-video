@@ -1,11 +1,11 @@
 [gd_scene load_steps=18 format=3 uid="uid://b67uxcsmxaqqi"]
 
-[ext_resource type="Script" path="res://fish/fish.gd" id="1_6ahu8"]
-[ext_resource type="Shader" path="res://fish/fish.gdshader" id="2_elrrs"]
+[ext_resource type="Script" uid="uid://lv46u30pdb4x" path="res://fish/fish.gd" id="1_6ahu8"]
+[ext_resource type="Shader" uid="uid://bgawqihdg4byj" path="res://fish/fish.gdshader" id="2_elrrs"]
 [ext_resource type="Texture2D" uid="uid://dnntm1mgk2r6d" path="res://fish/fish.png" id="2_mjo2s"]
 [ext_resource type="Texture2D" uid="uid://bjty65c32jxhq" path="res://movement_particles/bubble.png" id="4_a60dk"]
-[ext_resource type="Script" path="res://fish/shader_control.gd" id="4_y68b4"]
-[ext_resource type="Script" path="res://delayed_detector/delayed_detector.gd" id="5_fk5ku"]
+[ext_resource type="Script" uid="uid://sib3yihw6giy" path="res://fish/shader_control.gd" id="4_y68b4"]
+[ext_resource type="Script" uid="uid://c5y5sljie5xt5" path="res://delayed_detector/delayed_detector.gd" id="5_fk5ku"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_xapgh"]
 shader = ExtResource("2_elrrs")
@@ -100,8 +100,8 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_i74i6"]
 _data = {
-"RESET": SubResource("Animation_wwab5"),
-"explode": SubResource("Animation_cfh4d")
+&"RESET": SubResource("Animation_wwab5"),
+&"explode": SubResource("Animation_cfh4d")
 }
 
 [sub_resource type="Gradient" id="Gradient_dfpea"]
@@ -122,13 +122,11 @@ lifetime_randomness = 0.33
 particle_flag_disable_z = true
 direction = Vector3(0, 0, 0)
 spread = 180.0
-gravity = Vector3(0, 0, 0)
 initial_velocity_min = 62.63
 initial_velocity_max = 138.59
 angular_velocity_min = -181.89
 angular_velocity_max = 227.37
-orbit_velocity_min = 0.0
-orbit_velocity_max = 0.0
+gravity = Vector3(0, 0, 0)
 scale_min = 0.3
 scale_max = 0.5
 scale_curve = SubResource("CurveTexture_svkju")

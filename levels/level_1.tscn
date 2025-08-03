@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://co3jn3ck5jb1m"]
 
 [ext_resource type="Texture2D" uid="uid://ctd44e5ku42cy" path="res://shared_assets/one_pixel.png" id="1_336jh"]
-[ext_resource type="Script" path="res://levels/level.gd" id="1_b70ol"]
+[ext_resource type="Script" uid="uid://bw566rbikr6vd" path="res://levels/level.gd" id="1_b70ol"]
 [ext_resource type="PackedScene" uid="uid://mk3lbwd4lpb5" path="res://plankton/plankton.tscn" id="2_bjax7"]
 [ext_resource type="PackedScene" uid="uid://b5qgw8ps41nq2" path="res://camera/camera.tscn" id="3_4ru7x"]
 [ext_resource type="PackedScene" uid="uid://cf0svghvb3d78" path="res://spawn_point/spawn_point.tscn" id="3_d0oof"]

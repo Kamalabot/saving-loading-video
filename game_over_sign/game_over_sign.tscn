@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://ktqdmncsl8vj"]
 
 [ext_resource type="Texture2D" uid="uid://60l5di81hbgo" path="res://game_over_sign/game_over_sign.png" id="1_242oq"]
-[ext_resource type="Script" path="res://game_over_sign/game_over_sign.gd" id="1_e0kk3"]
-[ext_resource type="Script" path="res://game_over_sign/scale_container.gd" id="3_d6t2t"]
+[ext_resource type="Script" uid="uid://crsjy06ucf7am" path="res://game_over_sign/game_over_sign.gd" id="1_e0kk3"]
+[ext_resource type="Script" uid="uid://c4sthru52we27" path="res://game_over_sign/scale_container.gd" id="3_d6t2t"]
 [ext_resource type="FontFile" uid="uid://cx27tcro6r2q7" path="res://shared_assets/art_deco_font.ttf" id="4_b05xd"]
 
 [sub_resource type="Animation" id="Animation_m63cr"]
@@ -125,9 +125,9 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_htu50"]
 _data = {
-"RESET": SubResource("Animation_m63cr"),
-"conceal": SubResource("Animation_tr7t5"),
-"reveal": SubResource("Animation_txjca")
+&"RESET": SubResource("Animation_m63cr"),
+&"conceal": SubResource("Animation_tr7t5"),
+&"reveal": SubResource("Animation_txjca")
 }
 
 [node name="GameOverSign" type="MarginContainer"]

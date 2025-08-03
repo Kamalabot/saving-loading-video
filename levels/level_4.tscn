@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=3 uid="uid://b5l7tnoo1r7qq"]
 
-[ext_resource type="Script" path="res://levels/level.gd" id="1_qhwon"]
+[ext_resource type="Script" uid="uid://bw566rbikr6vd" path="res://levels/level.gd" id="1_qhwon"]
 [ext_resource type="Texture2D" uid="uid://ctd44e5ku42cy" path="res://shared_assets/one_pixel.png" id="2_1r415"]
 [ext_resource type="PackedScene" uid="uid://mk3lbwd4lpb5" path="res://plankton/plankton.tscn" id="3_jr5gj"]
 [ext_resource type="PackedScene" uid="uid://b5qgw8ps41nq2" path="res://camera/camera.tscn" id="4_j71he"]

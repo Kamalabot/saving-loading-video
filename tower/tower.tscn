@@ -1,12 +1,12 @@
 [gd_scene load_steps=22 format=3 uid="uid://dwxl8elj3d5gj"]
 
-[ext_resource type="Script" path="res://tower/tower.gd" id="1_3eceo"]
+[ext_resource type="Script" uid="uid://cmwmyw2yh0usj" path="res://tower/tower.gd" id="1_3eceo"]
 [ext_resource type="PackedScene" uid="uid://bb1if1fbcr7f4" path="res://tower_projectile/projectile.tscn" id="2_rjrxu"]
-[ext_resource type="Shader" path="res://tower/health_indicator.gdshader" id="3_ipdor"]
+[ext_resource type="Shader" uid="uid://ces7ju63a45p7" path="res://tower/health_indicator.gdshader" id="3_ipdor"]
 [ext_resource type="Texture2D" uid="uid://5hdhq0mnmawx" path="res://tower/sphere.png" id="3_m4lar"]
 [ext_resource type="Texture2D" uid="uid://ctd44e5ku42cy" path="res://shared_assets/one_pixel.png" id="4_3lijr"]
 [ext_resource type="PackedScene" uid="uid://d11vwcdb8m2ko" path="res://light_cone/light_cone.tscn" id="5_r7nbw"]
-[ext_resource type="Shader" path="res://light_cone/cone.gdshader" id="6_ledcd"]
+[ext_resource type="Shader" uid="uid://clhr1x3qjpp14" path="res://light_cone/cone.gdshader" id="6_ledcd"]
 [ext_resource type="Texture2D" uid="uid://bjty65c32jxhq" path="res://movement_particles/bubble.png" id="7_3skka"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ywm8n"]
@@ -42,13 +42,11 @@ lifetime_randomness = 0.33
 particle_flag_disable_z = true
 direction = Vector3(0, 0, 0)
 spread = 180.0
-gravity = Vector3(0, 0, 0)
 initial_velocity_min = 20.52
 initial_velocity_max = 75.43
 angular_velocity_min = -181.89
 angular_velocity_max = 227.37
-orbit_velocity_min = 0.0
-orbit_velocity_max = 0.0
+gravity = Vector3(0, 0, 0)
 scale_min = 0.6
 scale_max = 0.8
 scale_curve = SubResource("CurveTexture_wof2h")
@@ -174,9 +172,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_lhm24"]
 _data = {
-"RESET": SubResource("Animation_fv5sh"),
-"explode": SubResource("Animation_0l7em"),
-"startup": SubResource("Animation_yl8ow")
+&"RESET": SubResource("Animation_fv5sh"),
+&"explode": SubResource("Animation_0l7em"),
+&"startup": SubResource("Animation_yl8ow")
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_wo5b2"]

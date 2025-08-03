@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://dk3cdmmwsb57l"]
 
-[ext_resource type="Shader" path="res://pause_screen/grayscale_postprocess.gdshader" id="1_djina"]
+[ext_resource type="Shader" uid="uid://bbqmgv03uwtfn" path="res://pause_screen/grayscale_postprocess.gdshader" id="1_djina"]
 [ext_resource type="Texture2D" uid="uid://ctd44e5ku42cy" path="res://shared_assets/one_pixel.png" id="2_yuttr"]
 [ext_resource type="FontFile" uid="uid://cx27tcro6r2q7" path="res://shared_assets/art_deco_font.ttf" id="3_j685c"]
 
